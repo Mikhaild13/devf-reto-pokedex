@@ -1,6 +1,5 @@
 
 @import url('http://fonts.googleapis.com/css?family=Roboto');
-@import url('http://fonts.cdnfonts.com/css/pokemon-solid');
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -25,12 +24,12 @@ body {
 
 .pokedex {
   position: relative;
-  top: -60px;
+  top: 28px;
   height: 100px;
   color: #f7c504;
   vertical-align: text-top;
-  font-family: 'Pokemon Solid';
-  -webkit-text-stroke-width: 1px;
+  font-family: sans-serif;
+  -webkit-text-stroke-width: 5px;
   -webkit-text-stroke-color: #00436d;
   letter-spacing: 18px;
   font-size: 80px;
