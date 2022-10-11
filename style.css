@@ -12,7 +12,7 @@ body {
   background-image: URL(./img/Charizard.png);
   background-repeat: no-repeat;
   background-size: 100vh;
-  background-position: top;
+  background-position: center;
   background-attachment: fixed;
 }
 
@@ -34,6 +34,13 @@ body {
   letter-spacing: 18px;
   font-size: 80px;
   font-weight: 900;
+}
+
+@media (max-width: 600px) {
+  .pokedex {
+    letter-spacing: normal;
+    font-size: 60px;
+  }
 }
 
 .pkmInput {
@@ -85,9 +92,7 @@ body {
 
 .container {
   position: flex;
-  /* margin-top: 300px; */
   top: 300px;
-  /* overflow: hidden; */
 }
 
 .results {
